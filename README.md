@@ -11,17 +11,17 @@ This is an example configuration:
 ```
 {
   "filetypes": {
-	"mp4": "video",
-	"mkv": "video",
-	"jpg": "image",
+    "mp4": "video",
+    "mkv": "video",
+    "jpg": "image",
     "pdf": "document",
-	"": "raw"
+    "": "raw"
   },
   "commands": {
     "document": ["zathura"],
-	"video": ["mpv"],
-	"image": ["sxiv"],
-	"raw": ["alacritty", "-e", "nvim"]
+    "video": ["mpv"],
+    "image": ["sxiv"],
+    "raw": ["alacritty", "-e", "nvim"]
   }
 }
 ```

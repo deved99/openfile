@@ -8,7 +8,7 @@ use std::process::{Command, Stdio};
 use serde::Deserialize;
 use serde_json as json;
 
-const CONF_PATH: &str = "/.config/local/openfile.json";
+const CONF_PATH: &str = "/.config/openfile/openfile.json";
 
 fn main() {
     let config = get_config();
